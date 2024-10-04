@@ -25,3 +25,20 @@ body {
     text-wrap: balance;
   }
 }
+
+body{
+  background: yellow;
+  animation: infinite;
+
+  @keyframes infinite {
+    0% {
+      background: yellow;
+    }
+    50% {
+      background: red;
+    }
+    100% {
+      background: yellow;
+    }
+  }
+}
