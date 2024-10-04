@@ -42,3 +42,21 @@ body{
     }
   }
 }
+
+h1{
+  color: yellow;
+  font-size: 50px;
+  animation: infinite;
+
+  @keyframes infinite {
+    0% {
+      color: yellow;
+    }
+    50% {
+      color: red;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+}
